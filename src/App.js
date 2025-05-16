@@ -11,7 +11,7 @@ const App = () => {
   const [data, setData] = useState(null);
   return (
     <div>
-      <h1>API Fetch</h1>
+      <h1>API Fetch asdas d</h1>
       {data ? (
         data.map((arr) => <Blogs Blogtitle={arr.title} BlogDesc={arr.body} />)
       ) : (
